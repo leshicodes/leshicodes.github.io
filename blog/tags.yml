@@ -1,12 +1,12 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+kitchen:
+  label: kitchen
+  permalink: /kitchen
+  description: kitchen tag description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+DIY:
+  label: DIY
+  permalink: /DIY
+  description: DIY tag description
 
 docusaurus:
   label: Docusaurus

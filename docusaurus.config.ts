@@ -51,7 +51,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/leshicodes/leshicodes.github.io/tree/main/blog',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -63,7 +63,6 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -75,15 +74,23 @@ const config: Config = {
       },
       items: [
         {
-          type: 'localeDropdown',
-        },
-        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog/tags/tech', label: 'Tech', position: 'left'},
+        // {to: '/blog/tags/poetry', label: 'Poetry', position: 'left'},
+        {
+          type: 'dropdown',
+          label: 'Blog',
+          position: 'left',
+          to: '/blog',
+          items: [
+            {to: '/blog/tags/tech', label: 'Tech'},
+            {to: '/blog/tags/poetry', label: 'Poetry'},
+          ],
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
