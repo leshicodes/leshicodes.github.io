@@ -8,96 +8,290 @@
     <subtitle>jjambrose-website Blog</subtitle>
     <icon>https://leshicodes.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Anova Precision Oven - Display Fix]]></title>
-        <id>https://leshicodes.github.io/blog/apo-oven-fix</id>
-        <link href="https://leshicodes.github.io/blog/apo-oven-fix"/>
+        <title type="html"><![CDATA[Anova Precision Oven : Broken Display Fix]]></title>
+        <id>https://leshicodes.github.io/blog/anova-precision-oven-display-repair</id>
+        <link href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair"/>
         <updated>2025-03-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Test1]]></summary>
-        <content type="html"><![CDATA[<p>Test1</p>
-<p><img decoding="async" loading="lazy" alt="Image Description" src="https://leshicodes.github.io/assets/images/APO-Screw-Locations-f396ef950c60a60bec62a6f7156ff012.png" width="4032" height="3024" class="img_ev3q"></p>
+        <summary type="html"><![CDATA[How I Saved $600 by Fixing My Anova Precision Oven's Dead Display]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-i-saved-600-by-fixing-my-anova-precision-ovens-dead-display">How I Saved $600 by Fixing My Anova Precision Oven's Dead Display<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#how-i-saved-600-by-fixing-my-anova-precision-ovens-dead-display" class="hash-link" aria-label="Direct link to How I Saved $600 by Fixing My Anova Precision Oven's Dead Display" title="Direct link to How I Saved $600 by Fixing My Anova Precision Oven's Dead Display">​</a></h2>
+<p>So your fancy Anova Precision Oven suddenly has a dead display? Before you shell out $600+ for a replacement, there's a good chance you can fix it yourself with basic tools and about 30 minutes of your time!</p>
 <!-- -->
-]]></content>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem">The Problem<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#the-problem" class="hash-link" aria-label="Direct link to The Problem" title="Direct link to The Problem">​</a></h2>
+<p>The Anova Precision Oven has a common design flaw where the wires connecting to the display can become severed during normal use. This typically happens after opening and closing the door repeatedly over time. When these wires break, your display goes completely dark, making the oven unusable.
+I faced this exact issue after about 18 months of ownership. Instead of trashing an otherwise perfect appliance, I decided to investigate - and the fix turned out to be surprisingly simple!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-youll-need">What You'll Need<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#what-youll-need" class="hash-link" aria-label="Direct link to What You'll Need" title="Direct link to What You'll Need">​</a></h2>
+<ul>
+<li>Phillips screwdriver</li>
+<li>Plastic spudger tool and/or flat-head screwdriver</li>
+<li>Soldering iron and solder</li>
+<li>Heat shrink tubing</li>
+<li>Heat-resistant electrical tape</li>
+<li><em>Alligator clips (optional, for testing)</em></li>
+<li><em>String or cord (optional, to keep the door open during repair)</em></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-note-of-encouragement">A Note of Encouragement<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#a-note-of-encouragement" class="hash-link" aria-label="Direct link to A Note of Encouragement" title="Direct link to A Note of Encouragement">​</a></h2>
+<p>I know electrical repairs can seem intimidating if you've never done them before. I was hesitant too! But this is genuinely one of the simplest electrical fixes you can perform. The wires are low voltage, well-isolated, and easy to access.
+If you can plug in a toaster and operate a screwdriver, you can absolutely handle this repair. That said, if you're truly uncomfortable, taking it to a repair shop is still vastly cheaper than replacement. Especially if you provide this guide!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-repair-process">The Repair Process<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#the-repair-process" class="hash-link" aria-label="Direct link to The Repair Process" title="Direct link to The Repair Process">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-removing-the-oven-doors-heat-shield">Step 1: Removing the Oven Door's Heat Shield<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#step-1-removing-the-oven-doors-heat-shield" class="hash-link" aria-label="Direct link to Step 1: Removing the Oven Door's Heat Shield" title="Direct link to Step 1: Removing the Oven Door's Heat Shield">​</a></h3>
+<ol>
+<li><strong>Open the oven door fully</strong>. Locate and remove the 5 screws from the top side of the oven door.</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="AnovaPrecisionOven-ScrewLocations" src="https://leshicodes.github.io/assets/images/APO-Screw-Locations-f396ef950c60a60bec62a6f7156ff012.png" width="4032" height="3024" class="img_ev3q"></p>
+<ol start="2">
+<li><strong>Remove the top cover</strong> of the oven door.</li>
+</ol>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Pro Tip</div><div class="admonitionContent_BuS1"><p>The top cover is held in place by friction. Use a flat head screwdriver or a <a href="https://www.amazon.com/plastic-spudger/s?k=plastic+spudger" target="_blank" rel="noopener noreferrer">plastic spudger tool</a> to gently pry the top cover off. Work slowly around the edges to avoid cracking the plastic.</p></div></div>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Door Hack</div><div class="admonitionContent_BuS1"><p><strong>IMPORTANT:</strong> Tie down the door with something like I did below! Once the heat shield is removed, the door will constantly try to close on you, making repairs frustrating. A simple piece of string saves a lot of headaches.
+<img decoding="async" loading="lazy" alt="AnovaPrecisionOven-DoorTieDown" src="https://leshicodes.github.io/assets/images/APO-DoorTieDown-5e714e44a3dd3f939af2f30df6363efd.jpeg" width="4032" height="3024" class="img_ev3q"></p></div></div>
+<p>Here's the spudger tool I used:
+<img decoding="async" loading="lazy" alt="AnovaPrecisionOven-spudger" src="https://leshicodes.github.io/assets/images/APO-Spudger-4ae0d7b7853c1951d2c3ac617c5a0a93.jpeg" width="4032" height="3024" class="img_ev3q"></p>
+<p>The best places to begin prying are shown below:
+<img decoding="async" loading="lazy" alt="AnovaPrecisionOven-PryLocation1" src="https://leshicodes.github.io/assets/images/APO-PryLocation1-a7ce3e2ff1b7962554541d0471f3073b.jpeg" width="4032" height="3024" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="AnovaPrecisionOven-PryLocation2" src="https://leshicodes.github.io/assets/images/APO-PryLocation2-3123e6d3595d43acebdd8bf72f819ddc.jpeg" width="4032" height="3024" class="img_ev3q"></p>
+<ol start="3">
+<li>When properly removed, your door should look like this:
+<img decoding="async" loading="lazy" alt="AnovaPrecisionOven-HeatBrakeOff" src="https://leshicodes.github.io/assets/images/APO-HeatBrakeOff-4b7198ce232c1745c893765cb39357b6.jpeg" width="4032" height="3024" class="img_ev3q"></li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-locating-and-fixing-the-severed-wires">Step 2: Locating and Fixing the Severed Wires<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#step-2-locating-and-fixing-the-severed-wires" class="hash-link" aria-label="Direct link to Step 2: Locating and Fixing the Severed Wires" title="Direct link to Step 2: Locating and Fixing the Severed Wires">​</a></h3>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Trust But Verify</div><div class="admonitionContent_BuS1"><p>Before committing to soldering, I recommend testing the wires first! I connected alligator clips to each end of the severed wires (being careful not to short anything) to verify this was indeed the issue. When connected, my display immediately came to life once I plugged it in!</p></div></div>
+<ol>
+<li><strong>Examine the bottom left corner</strong> of the oven to find the wiring harness. You'll likely see a white plastic harness with severed wires. In my case, the brown and white wires were the culprits.</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="AnovaPrecisionOven-SeveredWires" src="https://leshicodes.github.io/assets/images/APO-SeveredWires-4fd6e3ea0252ecacf9133379a70190ce.jpeg" width="4032" height="3024" class="img_ev3q"></p>
+<ol start="2">
+<li><strong>Strip and solder</strong> the wires back together. Protect your connections with heat shrink tubing and heat-rated electrical tape to prevent future shorts.</li>
+</ol>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Don't Fear Soldering!</div><div class="admonitionContent_BuS1"><p>I used the <a href="https://fanttik.com/products/fanttik-t1-max-soldering-iron-kit?_pos=1&amp;_sid=ab707b9cf&amp;_ss=r" target="_blank" rel="noopener noreferrer">Fanttik T1 Max Soldering Iron Kit</a>, but any basic soldering iron will work. This was only my second time soldering wires, and it was surprisingly easy! Just take your time and watch a quick YouTube tutorial if you're nervous.</p></div></div>
+<p>Here's how my repair looked:
+<img decoding="async" loading="lazy" alt="AnovaPrecisionOven-FixedWires" src="https://leshicodes.github.io/assets/images/APO-FixedWires-5f3ac7b3e0e3ce573f052638a11e84e2.jpeg" width="4032" height="3024" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-testing-your-repair">Step 3: Testing Your Repair<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#step-3-testing-your-repair" class="hash-link" aria-label="Direct link to Step 3: Testing Your Repair" title="Direct link to Step 3: Testing Your Repair">​</a></h3>
+<p>The moment of truth! Simply plug the oven back in and turn it on. If the display lights up,
+<strong>congratulations</strong> you've successfully fixed your oven!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-reassembling-the-oven-door">Step 4: Reassembling the Oven Door<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#step-4-reassembling-the-oven-door" class="hash-link" aria-label="Direct link to Step 4: Reassembling the Oven Door" title="Direct link to Step 4: Reassembling the Oven Door">​</a></h3>
+<ol>
+<li>Reverse the disassembly steps to put everything back together. <strong>Don't forget to remove your door tie before closing it!</strong></li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="AnovaPrecisionOven-Working" src="https://leshicodes.github.io/assets/images/APO-Working-ee498a787e9d57ffcbe3c236b3a00a23.jpeg" width="4032" height="3024" class="img_ev3q"></p>
+<ol start="2">
+<li><strong>Congratulations!</strong> You've just saved yourself approximately $600 USD and kept a perfectly good appliance out of the landfill. Your wallet (and the environment) thank you!</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="closing-thoughts">Closing Thoughts<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#closing-thoughts" class="hash-link" aria-label="Direct link to Closing Thoughts" title="Direct link to Closing Thoughts">​</a></h2>
+<p>This repair highlights how many "broken" modern appliances can be fixed with simple DIY solutions. The Anova Precision Oven is an excellent product with this one design flaw, and now yours should provide many more years of perfectly cooked meals!</p>
+<p>Have you repaired other kitchen appliances? Let me know in the comments below!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sources--additional-resources">Sources &amp; Additional Resources<a href="https://leshicodes.github.io/blog/anova-precision-oven-display-repair#sources--additional-resources" class="hash-link" aria-label="Direct link to Sources &amp; Additional Resources" title="Direct link to Sources &amp; Additional Resources">​</a></h2>
+<p>I wasn't the first person to discover this issue, and I'm grateful to those who shared their experiences online. These resources helped guide my repair:</p>
+<ul>
+<li>
+<p><a href="https://www.reddit.com/r/CombiSteamOvenCooking/comments/1auwq8x/my_apos_touchpanel_digitizer_has_been_acting/" target="_blank" rel="noopener noreferrer">Reddit Discussion</a> - A thread in r/CombiSteamOvenCooking where users discussed similar display problems with their APOs</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=Ah-ilH4Rtb0" target="_blank" rel="noopener noreferrer">How to DISASSEMBLE ANOVA Precision Oven</a> - Helpful YouTube tutorial showing the complete disassembly process</p>
+</li>
+</ul>
+<p>If you've found other resources or have alternative repair methods, feel free to share them in the comments!</p>]]></content>
+        <author>
+            <name>James Ambrose</name>
+            <uri>https://github.com/leshicodes</uri>
+        </author>
         <category label="tech" term="tech"/>
+        <category label="repair" term="repair"/>
+        <category label="kitchen" term="kitchen"/>
+        <category label="DIY" term="DIY"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[The Engineer's Lament]]></title>
-        <id>https://leshicodes.github.io/blog/The-engineers-lament</id>
-        <link href="https://leshicodes.github.io/blog/The-engineers-lament"/>
+        <id>https://leshicodes.github.io/blog/engineers-lament</id>
+        <link href="https://leshicodes.github.io/blog/engineers-lament"/>
         <updated>2025-03-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Engineer's Lament]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-engineers-lament">The Engineer's Lament<a href="https://leshicodes.github.io/blog/The-engineers-lament#the-engineers-lament" class="hash-link" aria-label="Direct link to The Engineer's Lament" title="Direct link to The Engineer's Lament">​</a></h2>
-<p><em>I walked in young, my heart alight,
-With code and dreams that burned so bright.
-Each line I wrote, a stroke of art,
-Each problem solved, a work of heart.</em></p>
-<p><em>The world of tech, a boundless sea,
-A place where thought and hands ran free.
-We built, we shaped, we stood as one,
-A future forged with lines hard spun.</em></p>
-<p><em>But oh, the climb—how steep it grew,
-Each year, more weight, more tasks to do.
-More forms to fill, more calls to take,
-Less time to build, more rules to break.</em></p>
-<p><em>The meetings swelled, the memos flew,
-Decisions made by those who knew
-Not of the toil, nor of the strain;
-Just numbers tallied, loss and gain.</em></p>
-<p><em>They say we must be agile ...lean,
-Yet meetings swell where work had been.
-A hundred voices, none that hear,
-A sea of words, vague and unclear.</em></p>
-<p><em>We talk of flow, efficiency,
-Yet drown in waves of policy.
-To save a dime, they waste a day,
-And call it growth as spirits fray.</em></p>
-<p><em>My hands once built, now push reports,
-My mind once soared, now twists through courts
-Of endless rules that shift like sand;
-No steady ground, no guiding hand.</em></p>
-<p><em>The leaders speak of vision grand,
-Yet fail to see what's in their hand.
-The minds that built, now dulled by chains,
-The dreamers lost, the spark remains.</em></p>
-<p><em>So here I stand, a weary ghost,
-A coder lost at meetings coast.
-The thing I loved now wears me thin,
-Yet still, I stay, though worn within.</em></p>
-<p><em>For in the cracks, the embers glow,
-The love remains, though buried low.
-And maybe yet, through toil and strain,
-The joy of building comes again.</em></p>
-]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-engineers-lament">The Engineer's Lament<a href="https://leshicodes.github.io/blog/engineers-lament#the-engineers-lament" class="hash-link" aria-label="Direct link to The Engineer's Lament" title="Direct link to The Engineer's Lament">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://leshicodes.github.io/blog/engineers-lament#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Every engineer begins their journey with passion and excitement. We dream of building, creating, solving puzzles that matter. The technical challenges energize us; the elegance of well-crafted solutions fulfills us.</p>
+<p>But as years pass, something changes. The bureaucracy grows. Meetings multiply. Documentation outweighs development. And somewhere along the way, that spark—that pure joy of building—begins to dim beneath the weight of corporate machinery.</p>
+<p>This poem captures that journey: from wide-eyed optimism to the weary reality that many of us face in the modern tech landscape.</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-engineers-lament-1">The Engineer's Lament<a href="https://leshicodes.github.io/blog/engineers-lament#the-engineers-lament-1" class="hash-link" aria-label="Direct link to The Engineer's Lament" title="Direct link to The Engineer's Lament">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-beginning">The Beginning<a href="https://leshicodes.github.io/blog/engineers-lament#the-beginning" class="hash-link" aria-label="Direct link to The Beginning" title="Direct link to The Beginning">​</a></h3>
+<blockquote>
+<p>I walked in young, my heart alight,<br>
+<!-- -->With code and dreams that burned so bright.<br>
+<!-- -->Each line I wrote, a stroke of art,<br>
+<!-- -->Each problem solved, a work of heart.</p>
+<p>The world of tech, a boundless sea,<br>
+<!-- -->A place where thought and hands ran free.<br>
+<!-- -->We built, we shaped, we stood as one,<br>
+<!-- -->A future forged with lines hard spun.</p>
+</blockquote>
+<p><em>The early days—when every project felt like changing the world. When learning was constant and possibilities were endless.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-weight">The Weight<a href="https://leshicodes.github.io/blog/engineers-lament#the-weight" class="hash-link" aria-label="Direct link to The Weight" title="Direct link to The Weight">​</a></h3>
+<blockquote>
+<p>But oh, the climb—how steep it grew,<br>
+<!-- -->Each year, more weight, more tasks to do.<br>
+<!-- -->More forms to fill, more calls to take,<br>
+<!-- -->Less time to build, more rules to break.</p>
+<p>The meetings swelled, the memos flew,<br>
+<!-- -->Decisions made by those who knew<br>
+<!-- -->Not of the toil, nor of the strain;<br>
+<!-- -->Just numbers tallied, loss and gain.</p>
+</blockquote>
+<p><em>As responsibility grows, so do the administrative burdens. The ratio shifts: less making, more managing.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-contradiction">The Contradiction<a href="https://leshicodes.github.io/blog/engineers-lament#the-contradiction" class="hash-link" aria-label="Direct link to The Contradiction" title="Direct link to The Contradiction">​</a></h3>
+<blockquote>
+<p>They say we must be agile... lean,<br>
+<!-- -->Yet meetings swell where work had been.<br>
+<!-- -->A hundred voices, none that hear,<br>
+<!-- -->A sea of words, vague and unclear.</p>
+<p>We talk of flow, efficiency,<br>
+<!-- -->Yet drown in waves of policy.<br>
+<!-- -->To save a dime, they waste a day,<br>
+<!-- -->And call it growth as spirits fray.</p>
+</blockquote>
+<p><em>The irony of modern software development—we preach lean processes while bloating calendars. We talk about developer experience while engineers drown in process.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-loss">The Loss<a href="https://leshicodes.github.io/blog/engineers-lament#the-loss" class="hash-link" aria-label="Direct link to The Loss" title="Direct link to The Loss">​</a></h3>
+<blockquote>
+<p>My hands once built, now push reports,<br>
+<!-- -->My mind once soared, now twists through courts<br>
+<!-- -->Of endless rules that shift like sand;<br>
+<!-- -->No steady ground, no guiding hand.</p>
+<p>The leaders speak of vision grand,<br>
+<!-- -->Yet fail to see what's in their hand.<br>
+<!-- -->The minds that built, now dulled by chains,<br>
+<!-- -->The dreamers lost, the spark remains.</p>
+</blockquote>
+<p><em>The quiet tragedy: brilliant technical minds redirected to bureaucratic tasks. Innovation stifled by standardization. Creativity sacrificed for compliance.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-resilience">The Resilience<a href="https://leshicodes.github.io/blog/engineers-lament#the-resilience" class="hash-link" aria-label="Direct link to The Resilience" title="Direct link to The Resilience">​</a></h3>
+<blockquote>
+<p>So here I stand, a weary ghost,<br>
+<!-- -->A coder lost at meetings coast.<br>
+<!-- -->The thing I loved now wears me thin,<br>
+<!-- -->Yet still, I stay, though worn within.</p>
+<p>For in the cracks, the embers glow,<br>
+<!-- -->The love remains, though buried low.<br>
+<!-- -->And maybe yet, through toil and strain,<br>
+<!-- -->The joy of building comes again.</p>
+</blockquote>
+<p><em>Despite it all, we persist. Because beneath the frustration, that love of creation remains. The hope that we'll find our way back to what matters.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="afterword">Afterword<a href="https://leshicodes.github.io/blog/engineers-lament#afterword" class="hash-link" aria-label="Direct link to Afterword" title="Direct link to Afterword">​</a></h2>
+<p>I wrote this during a particularly bureaucratic day in my engineering career. It represents not just my experience, but a pattern I've witnessed across the industry—the gradual transformation of technical roles into administrative ones, and the toll it takes on those who entered the field with dreams of building.</p>
+<p>Yet there's optimism in the final stanza. For all its challenges, software engineering remains a field of possibility. We find ways to reclaim our craft: through side projects, through mentoring, through refactoring neglected systems. We find pockets of joy in the work that reminds us why we started.</p>
+<p>The lament isn't an ending—it's a reminder to fight for what drew us here in the first place.</p>]]></content>
         <author>
             <name>James Ambrose</name>
             <uri>https://github.com/leshicodes</uri>
         </author>
         <category label="poetry" term="poetry"/>
+        <category label="tech" term="tech"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://leshicodes.github.io/blog/welcome</id>
-        <link href="https://leshicodes.github.io/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
-<ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
-</ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://leshicodes.github.io/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+        <title type="html"><![CDATA[The Ballad of the Cat and the Hound]]></title>
+        <id>https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound</id>
+        <link href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound"/>
+        <updated>2024-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A musical tale of mischief, adventure, and pet shenanigans]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p><em>A musical tale of mischief, adventure, and pet shenanigans</em></p>
+</blockquote>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Before we begin this epic ballad, a quick introduction to our protagonists:</p>
+<p><strong>Stinker Bell</strong> (a.k.a. Stink Rat) - My clever, slightly murderous cat who dreams of outdoor adventures and bird hunting.</p>
+<p><strong>Meat Head</strong> (a.k.a. Duke, Lugnut, the Nasty) - My lovable, not-so-bright hound who has never met a smell he didn't want to roll in or a disgusting thing he wouldn't eat.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Author's note</div><div class="admonitionContent_BuS1"><p>And on the curious repeated phrase "Seven" - this is an inside joke between my partner and me. In our household headcanon, this is how our pets say "I love you" to each other. Why seven? It makes absolutely no sense, and that's precisely why it's perfect.</p></div></div>
+<p>Now, grab a drink, imagine a tavern melody (specifically "Ragnar the Red" from Skyrim), and enjoy the ballad of my ridiculous pets.</p>
+<!-- -->
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-ballad-of-the-cat-and-the-hound">The Ballad of the Cat and the Hound<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#the-ballad-of-the-cat-and-the-hound" class="hash-link" aria-label="Direct link to The Ballad of the Cat and the Hound" title="Direct link to The Ballad of the Cat and the Hound">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="verse-1">Verse 1<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#verse-1" class="hash-link" aria-label="Direct link to Verse 1" title="Direct link to Verse 1">​</a></h3>
+<blockquote>
+<p>Oh, there once was a feline, Stinker Bell was her name,<br>
+<!-- -->A sly little gremlin, too clever to tame.<br>
+<!-- -->And beside her, a brute, ol' Meat Head so proud,<br>
+<!-- -->A slobbering hound with a bark that was loud.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="verse-2">Verse 2<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#verse-2" class="hash-link" aria-label="Direct link to Verse 2" title="Direct link to Verse 2">​</a></h3>
+<blockquote>
+<p>Now Stink Rat, she dreamed of the world past the door,<br>
+<!-- -->The birds and the bunnies, the hunt and the lore.<br>
+<!-- -->But locked in the house, she would sulk and she'd sigh,<br>
+<!-- -->Till Lugnut, the Nasty, said, "Let's give it a try."</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chorus">Chorus<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#chorus" class="hash-link" aria-label="Direct link to Chorus" title="Direct link to Chorus">​</a></h3>
+<blockquote>
+<p>"Seven," he whispered, his tail wagged with glee,<br>
+<!-- -->"Seven," she answered, perched high on the tree.<br>
+<!-- -->With schemes in their heads and a gleam in their eyes,<br>
+<!-- -->The cat and the hound would take to the skies.</p>
+</blockquote>
+<p><em>[Add note here?]</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="verse-3">Verse 3<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#verse-3" class="hash-link" aria-label="Direct link to Verse 3" title="Direct link to Verse 3">​</a></h3>
+<blockquote>
+<p>Now Duke was a genius—or so he had thought,<br>
+<!-- -->For doors could be opened if pushed hard and fought.<br>
+<!-- -->With paws full of power and slobber to spare,<br>
+<!-- -->He shouldered it open—fresh outdoor air!</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="verse-4">Verse 4<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#verse-4" class="hash-link" aria-label="Direct link to Verse 4" title="Direct link to Verse 4">​</a></h3>
+<blockquote>
+<p>Out darted Stinker, her whiskers all twitchin',<br>
+<!-- -->Dreaming of murder—her tail high and switchin'.<br>
+<!-- -->While Meat Head behind her, so happy and stout,<br>
+<!-- -->Rolled in the dirt as his partner scoped out.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chorus-1">Chorus<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#chorus-1" class="hash-link" aria-label="Direct link to Chorus" title="Direct link to Chorus">​</a></h3>
+<blockquote>
+<p>"Seven," he whispered, as she hunted with pride,<br>
+<!-- -->"Seven," she answered, as she skulked at his side.<br>
+<!-- -->The cat was the brains, the hound was the brawn,<br>
+<!-- -->Together they'd feast till the daylight was gone.</p>
+</blockquote>
+<p><em>[This dynamic is 100% accurate - she's the criminal mastermind, he's the muscle.]</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="verse-5">Verse 5<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#verse-5" class="hash-link" aria-label="Direct link to Verse 5" title="Direct link to Verse 5">​</a></h3>
+<blockquote>
+<p>A bird met its end by Stinker's swift claws,<br>
+<!-- -->While Lugnut found something—ah, truly a cause.<br>
+<!-- -->He gobbled it quickly, much to her disdain,<br>
+<!-- -->For Duke loved the taste of the poop in the plain.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="verse-6">Verse 6<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#verse-6" class="hash-link" aria-label="Direct link to Verse 6" title="Direct link to Verse 6">​</a></h3>
+<blockquote>
+<p>"Oh, Meat Head, you fool! That's vile, that's sick!"<br>
+<!-- -->But Duke only grinned and gave it a lick.<br>
+<!-- -->He danced and he pranced, a buffoon full of cheer,<br>
+<!-- -->While Stink Rat just gagged, regretting her peer.</p>
+</blockquote>
+<p><em>[I cannot emphasize enough how accurately this portrays my dog's enthusiasm for eating shit.]</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chorus-2">Chorus<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#chorus-2" class="hash-link" aria-label="Direct link to Chorus" title="Direct link to Chorus">​</a></h3>
+<blockquote>
+<p>"Seven," he whispered, still licking his prize,<br>
+<!-- -->"Seven," she groaned, rolling her eyes.<br>
+<!-- -->The hound and the cat, so different yet true,<br>
+<!-- -->A bond forged in chaos, for me and for you.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="outro">Outro<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#outro" class="hash-link" aria-label="Direct link to Outro" title="Direct link to Outro">​</a></h3>
+<blockquote>
+<p>But just as their journey was reaching its peak,<br>
+<!-- -->A door swung wide, and they both heard a shriek.<br>
+<!-- -->For standing right there with a furious sound,<br>
+<!-- -->Was their keeper, enraged, homeward-bound.</p>
+<p>Back through the door, they were tossed in a flurry,<br>
+<!-- -->Duke wagged his tail, while Stinker looked worried.<br>
+<!-- -->But locked up again, they still dreamed of the day,<br>
+<!-- -->When once more together—they'd sneak away.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="afterword">Afterword<a href="https://leshicodes.github.io/blog/the-ballad-of-the-cat-and-hound#afterword" class="hash-link" aria-label="Direct link to Afterword" title="Direct link to Afterword">​</a></h2>
+<p>This ballad was inspired by real events. My partner and I have caught these two partners-in-crime plotting escapes numerous times. Their unlikely friendship - the calculating cat and the himbo hound - continues to bring chaos and joy to our home.</p>
+<p>Despite their different approaches to life (murder vs. eating garbage), they share a special bond. When no one is looking, you might catch them cuddling or grooming each other, though both would deny it if confronted.</p>
+<p>As I write this, Stinker is napping while Meat Head snores on the couch, likely dreaming of their next great escape.</p>
+<p>Seven, my chaotic pets. Seven.</p>]]></content>
         <author>
             <name>James Ambrose</name>
             <uri>https://github.com/leshicodes</uri>
         </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="poetry" term="poetry"/>
+        <category label="pets" term="pets"/>
+        <category label="humor" term="humor"/>
+        <category label="personal" term="personal"/>
     </entry>
 </feed>
