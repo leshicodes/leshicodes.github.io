@@ -53,6 +53,7 @@ const config: Config = {
           editUrl:
             'https://github.com/leshicodes/leshicodes.github.io/tree/main/blog',
           // Useful options to enforce blogging best practices
+          authorsMapPath: 'authors.json',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',

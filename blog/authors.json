@@ -1,0 +1,13 @@
+{
+  "james": {
+    "name": "James Ambrose",
+    "url": "https://github.com/leshicodes",
+    "image_url": "https://github.com/leshicodes.png",
+    "page": true,
+    "description": "I'm a software engineer who loves to write about programming, tech, and life.",
+    "socials": {
+      "github": "https://github.com/leshicodes",
+      "bluesky": "https://bsky.app/profile/leshicodes.bsky.social",
+      "linkedin": "https://www.linkedin.com/in/jjambrose/"    }
+  }
+}
