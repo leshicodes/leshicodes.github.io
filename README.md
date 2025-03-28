@@ -1,6 +1,3 @@
-Here’s a suggested README.md for your project:
-
-```markdown
 # Personal Website - [leshicodes.github.io](https://leshicodes.github.io)
 
 Welcome to my personal website, powered by [Docusaurus](https://docusaurus.io/)! This site serves as a hub for my hobbies, projects, and documentation. It's hosted on GitHub Pages and built to showcase a variety of content, including:
@@ -76,4 +73,3 @@ This project is licensed under the [MIT License](LICENSE). -->
 ---
 
 Thank you for visiting my site! Feel free to explore and reach out if you have any questions or feedback.
-```
