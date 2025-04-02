@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+draft: true #change this to 'false' once you copy this to a new file.
 ---
 
 # Deploy your site

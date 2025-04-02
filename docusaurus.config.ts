@@ -5,9 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'jjambrose-website',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'LeshiCodes',
+  tagline: 'Tinkering with Tech, Life & Flavor',
+  favicon: 'img/LeshiCodes-Logo-Draft2-Favicon.png',
 
   // Set the production url of your site here
   url: 'https://leshicodes.github.io',
@@ -66,12 +66,12 @@ const config: Config = {
   ],
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/leshicodes-social-card.png',
     navbar: {
-      title: 'jjambrose-website',
+      title: 'LeshiCodes',
       logo: {
-        alt: 'jjambrose-website Logo',
-        src: 'img/logo.svg',
+        alt: 'LeshiCodes Logo',
+        src: 'img/LeshiCodes-Logo-Draft2-Textless.png',
       },
       items: [
         {

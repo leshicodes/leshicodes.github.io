@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+draft: true #change this to 'false' once you copy this to a new file.
 ---
 
 # Create a Blog Post

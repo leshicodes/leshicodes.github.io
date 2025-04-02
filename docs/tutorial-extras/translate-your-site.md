@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+draft: true #change this to 'false' once you copy this to a new file.
 ---
 
 # Translate your site

@@ -1,0 +1,74 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+// Get the template content
+const templatePath = path.join(__dirname, '..', 'blog', 'templates', 'YYYY-mm-dd-blog-post-title.mdx.template');
+const template = fs.readFileSync(templatePath, 'utf8');
+
+// Prompt for blog post details
+const questions = [
+  { name: 'title', prompt: 'Blog post title: ' },
+  { name: 'slug', prompt: 'URL slug (leave empty to generate from title): ' },
+  { name: 'tags', prompt: 'Tags (comma-separated, e.g. tech,poetry,personal): ' }
+];
+
+const answers = {};
+
+function askQuestion(index) {
+  if (index >= questions.length) {
+    generateBlogPost();
+    return;
+  }
+
+  const question = questions[index];
+  rl.question(question.prompt, (answer) => {
+    answers[question.name] = answer.trim();
+    askQuestion(index + 1);
+  });
+}
+
+function generateBlogPost() {
+  // Generate filename with current date
+  const date = new Date();
+  const dateStr = date.toISOString().split('T')[0]; // YYYY-MM-DD format
+  
+  // Generate slug if not provided
+  if (!answers.slug) {
+    answers.slug = answers.title
+      .toLowerCase()
+      .replace(/[^\w\s]/g, '')
+      .replace(/\s+/g, '-');
+  }
+  
+  // Format tags as an array
+  const tags = answers.tags ? answers.tags.split(',').map(tag => tag.trim()) : ['docusaurus'];
+  const formattedTags = JSON.stringify(tags).replace(/"/g, '');
+  
+  // Replace placeholders in the template
+  let content = template
+    .replace('slug: blog-post-title', `slug: ${answers.slug}`)
+    .replace('title: Blog post title', `title: ${answers.title}`)
+    .replace('tags: [docusaurus]', `tags: ${formattedTags}`);
+    
+  // Generate the file path
+  const fileName = `${dateStr}-${answers.slug}.mdx`;
+  const filePath = path.join(__dirname, '..', 'blog', fileName);
+  
+  // Write the file
+  fs.writeFileSync(filePath, content);
+  
+  console.log(`✅ Blog post created at: ${filePath}`);
+  rl.close();
+}
+
+console.log('📝 Create a new blog post');
+console.log('------------------------');
+askQuestion(0);
