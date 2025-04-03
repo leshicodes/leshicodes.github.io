@@ -1,10 +1,13 @@
-# filepath: .github/workflows/deploy.yml
 name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
     branches:
       - main
+
+# Add permissions to allow deployment while respecting branch protection
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -29,3 +32,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          # Keep CNAME if you're using a custom domain
+          keep_files: true
