@@ -6,13 +6,38 @@ const { program } = require('commander');
 const readline = require('readline');
 
 program
+  .arguments('[args...]') // Add this line to accept positional arguments
   .option('-t, --title <title>', 'Blog post title')
   .option('-s, --slug <slug>', 'URL slug (optional)')
   .option('-g, --tags <tags>', 'Comma-separated tags')
   .allowUnknownOption() // Add this to be more forgiving with argument parsing
+  .version('1.0.0')
+  .addHelpText('after', `
+Examples:
+  $ npm run new-blog-post -- --title="My Post" --tags="tag1,tag2"
+  $ npm run new-blog-post -- --title="My Post" --slug="custom-slug" --tags="tag1,tag2"
+  $ node scripts/create-blog-post.js --title "My Post" --tags "tag1,tag2"
+  `)
   .parse(process.argv);
 
 const options = program.opts();
+
+// Handle npm run arguments with equals signs
+if (process.argv.some(arg => arg.startsWith('--title='))) {
+  const titleArg = process.argv.find(arg => arg.startsWith('--title='));
+  options.title = titleArg.split('=')[1].replace(/^"|"$/g, '');
+  
+  const tagsArg = process.argv.find(arg => arg.startsWith('--tags='));
+  if (tagsArg) {
+    options.tags = tagsArg.split('=')[1].replace(/^"|"$/g, '');
+  }
+}
+
+console.log('Processed options:', options);
+
+// Debugging... remove later.
+console.log('Command line arguments:', process.argv);
+console.log('Parsed options:', options);
 
 // Get the template content
 const templatePath = path.join(__dirname, '..', 'blog', 'templates', 'YYYY-mm-dd-blog-post-title.mdx.template');

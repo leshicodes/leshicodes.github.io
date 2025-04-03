@@ -13,7 +13,9 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "new-blog-post": "node scripts/create-blog-post.js"
+    "new-blog-post-deprecated": "node scripts/create-blog-post.js",
+    "new-blog-post": "node -e \"require('./scripts/npm-blog-wrapper.js')\"",
+    "new-blog-post:help": "node scripts/create-blog-post.js --help"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",

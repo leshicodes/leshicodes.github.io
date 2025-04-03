@@ -88,6 +88,7 @@ const config: Config = {
           position: 'left',
           to: '/blog',
           items: [
+            {to: '/blog/tags', label: 'Tags'},
             {to: '/blog/tags/tech', label: 'Tech'},
             {to: '/blog/tags/poetry', label: 'Poetry'},
           ],
