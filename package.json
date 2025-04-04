@@ -1,6 +1,6 @@
 {
-  "name": "jjambrose-website",
-  "version": "0.0.0",
+  "name": "leshicodes.github.io",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
