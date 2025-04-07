@@ -8,20 +8,20 @@ DIY:
   permalink: /DIY
   description: DIY tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+# docusaurus:
+#   label: Docusaurus
+#   permalink: /docusaurus
+#   description: Docusaurus tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+# hola:
+#   label: Hola
+#   permalink: /hola
+#   description: Hola tag description
 
 poetry:
   label: poetry
   permalink: /poetry
-  description: poetry description (TODO)
+  description: A collection of poetry that serves as a creative outlet, ranging from funny to scary to sad, reflecting personal expression and emotion.
 
 tech:
   label: tech
