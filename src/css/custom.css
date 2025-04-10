@@ -28,3 +28,30 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+
+.navbar__inner .github-button {
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  margin: 0;
+  border-radius: var(--ifm-breadcrumb-border-radius);
+  padding: var(--ifm-navbar-item-padding-vertical) var(--ifm-navbar-item-padding-horizontal);
+}
+
+.navbar__inner .github-button *{
+  display: none;
+}
+
+.navbar__inner .github-button:before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.navbar__inner .github-button:before {
+  background: url('/img/github.svg') no-repeat;
+  margin: 1px 0 0 -7px;
+}

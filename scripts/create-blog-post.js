@@ -35,9 +35,9 @@ if (process.argv.some(arg => arg.startsWith('--title='))) {
 
 console.log('Processed options:', options);
 
-// Debugging... remove later.
-console.log('Command line arguments:', process.argv);
-console.log('Parsed options:', options);
+// // Debugging... remove later.
+// console.log('Command line arguments:', process.argv);
+// console.log('Parsed options:', options);
 
 // Get the template content
 const templatePath = path.join(__dirname, '..', 'blog', 'templates', 'YYYY-mm-dd-blog-post-title.mdx.template');

@@ -94,9 +94,11 @@ const config: Config = {
           ],
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/leshicodes',
+          className: 'github-button',
           position: 'right',
+          label: 'GitHub',
+          "title": 'GitHub repository',
         },
       ],
     },
