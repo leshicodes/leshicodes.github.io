@@ -27,3 +27,8 @@ tech:
   label: tech
   permalink: /tech
   description: tech description (TODO)
+
+personal:
+  label: personal
+  permalink: /personal
+  description: "This tag is used for personal posts, which may include a variety of topics that are not strictly technical or related to my work. It serves as a space for me to share my thoughts, experiences, and reflections on life outside of my professional endeavors."
