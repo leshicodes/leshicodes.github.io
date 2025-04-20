@@ -83,7 +83,7 @@ function TechnicalAchievements() {
             <Link to="/blog/tags/tech" className="button button--primary button--lg">
               Technical Blog
             </Link>
-            <Link to="/docs/intro" className="button button--secondary button--lg">
+            <Link to="/docs" className="button button--secondary button--lg">
               Project Docs
             </Link>
           </div>
