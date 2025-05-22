@@ -2,11 +2,91 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://leshicodes.github.io/blog</id>
     <title>LeshiCodes Blog</title>
-    <updated>2025-04-20T00:00:00.000Z</updated>
+    <updated>2025-05-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://leshicodes.github.io/blog"/>
     <subtitle>LeshiCodes Blog</subtitle>
     <icon>https://leshicodes.github.io/img/LeshiCodes-Logo-Draft2-Favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[The Wheel]]></title>
+        <id>https://leshicodes.github.io/blog/the-wheel</id>
+        <link href="https://leshicodes.github.io/blog/the-wheel"/>
+        <updated>2025-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Foreward]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="foreward">Foreward<a href="https://leshicodes.github.io/blog/the-wheel#foreward" class="hash-link" aria-label="Direct link to Foreward" title="Direct link to Foreward">​</a></h3>
+<p>I didn't set out to write this piece.<br>
+<!-- -->It came through me the way exhaustion does<br>
+<!-- -->slow, quiet, and absolute.<br>
+<!-- -->Like many, I've been watching the world lose her shape<br>
+<!-- -->truth hollowed out, care turned into currency,<br>
+<!-- -->and suffering dressed up as inevitability.</p>
+<p>I kept seeing the same pattern,<br>
+<!-- -->not just struggle, but design.<br>
+<!-- -->A wheel doesn't spin by accident.<br>
+<!-- -->It's built, maintained and greased with silence and fear.</p>
+<p>This piece is an allegory,<br>
+<!-- -->but it's also a journal.<br>
+<!-- -->The devil in this story doesn't carry a pitchfork.<br>
+<!-- -->He signs contracts. He smiles in debates.<br>
+<!-- -->He thanks you for your labor<br>
+<!-- -->and leaves you with just enough to keep you alive, yet tired.</p>
+<p>I wrote this for those who feel the weight but can't always name it.<br>
+<!-- -->This isn't a battle cry. It's a dirge for the living.<br>
+<!-- -->Because pain is not the end of us.<br>
+<!-- -->Because even ground-down voices can still hum.</p>
+<p>And some songs<br>
+<!-- -->are stronger than the wheel.</p>
+<!-- -->
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-wheel">The Wheel<a href="https://leshicodes.github.io/blog/the-wheel#the-wheel" class="hash-link" aria-label="Direct link to The Wheel" title="Direct link to The Wheel">​</a></h3>
+<blockquote>
+<p>The earth was broken long ago,<br>
+<!-- -->Before we knew her name.<br>
+<!-- -->They carved the clouds into a brand,<br>
+<!-- -->Then sold us skies of flame.</p>
+<p>And still, the wheel turns round,<br>
+<!-- -->Grinding bone and soil and sound.<br>
+<!-- -->We cry, we bleed, we till the ground<br>
+<!-- -->And still, the wheel turns round.</p>
+<p>The healer's door is locked and cold,<br>
+<!-- -->Its key a price too steep.<br>
+<!-- -->The sick are told to wait in line—<br>
+<!-- -->Or pay, or pray, or weep.</p>
+<p>And still, the wheel turns round,<br>
+<!-- -->Grinding bone and soil and sound.<br>
+<!-- -->We cry, we bleed, we till the ground—<br>
+<!-- -->And still, the wheel turns round.</p>
+<p>The food is fake, the rent is real,<br>
+<!-- -->The clocks all run in debt.<br>
+<!-- -->We sell our breath to buy the means<br>
+<!-- -->To sleep, forget, and sweat.</p>
+<p>And still, the wheel turns round,<br>
+<!-- -->Grinding bone and soil and sound.<br>
+<!-- -->We cry, we bleed, we till the ground—<br>
+<!-- -->And still, the wheel turns round.</p>
+<p>The children learn to count in scars,<br>
+<!-- -->The newsmen sell us blame.<br>
+<!-- -->We know the world is burning down,<br>
+<!-- -->But never name the flame.</p>
+<p>And still, the wheel turns round,<br>
+<!-- -->Grinding bone and soil and sound.<br>
+<!-- -->We cry, we bleed, we till the ground—<br>
+<!-- -->And still, the wheel turns round.</p>
+<p>We are the cogs beneath the wheel,<br>
+<!-- -->Our breath the grease that keeps it fed.<br>
+<!-- -->It grinds us down, then pays in crumbs—<br>
+<!-- -->Just enough to fear the dead.</p>
+<p>It turns, it turns, it always has<br>
+<!-- -->But every wheel runs thin.<br>
+<!-- -->And one day soon, the steel will slip<br>
+<!-- -->And let the fire in.</p>
+</blockquote>
+]]></content>
+        <author>
+            <name>James Ambrose</name>
+            <uri>https://github.com/leshicodes</uri>
+        </author>
+        <category label="poetry" term="poetry"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nick: Two Layers Deep]]></title>
         <id>https://leshicodes.github.io/blog/nick-two-layers-deep</id>
