@@ -2,11 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://leshicodes.github.io/blog</id>
     <title>LeshiCodes Blog</title>
-    <updated>2025-05-22T00:00:00.000Z</updated>
+    <updated>2025-05-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://leshicodes.github.io/blog"/>
     <subtitle>LeshiCodes Blog</subtitle>
     <icon>https://leshicodes.github.io/img/LeshiCodes-Logo-Draft2-Favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Still Breathing]]></title>
+        <id>https://leshicodes.github.io/blog/still-breathing</id>
+        <link href="https://leshicodes.github.io/blog/still-breathing"/>
+        <updated>2025-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Foreword]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="foreword">Foreword<a href="https://leshicodes.github.io/blog/still-breathing#foreword" class="hash-link" aria-label="Direct link to Foreword" title="Direct link to Foreword">​</a></h2>
+<p>This piece is a conversation I've had in silence for years.<br>
+<!-- -->This is about Fear. The version that wears your voice, edits your personality, and calls it protection.<br>
+<!-- -->Sometimes the bravest thing isn't being loud.<br>
+<!-- -->It's showing up.</p>
+<!-- -->
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="part-i-fear">Part I: Fear<a href="https://leshicodes.github.io/blog/still-breathing#part-i-fear" class="hash-link" aria-label="Direct link to Part I: Fear" title="Direct link to Part I: Fear">​</a></h3>
+<blockquote>
+<p>Let's not do this.<br>
+<!-- -->You know how this ends.</p>
+<p>The lump's already in your throat,<br>
+<!-- -->and we both know<br>
+<!-- -->you don't talk when that happens.</p>
+<p>It's safer when you don't try.<br>
+<!-- -->When you nod,<br>
+<!-- -->smile,<br>
+<!-- -->blend in.<br>
+<!-- -->When you keep it surface<br>
+<!-- -->so they don't see what stirs underneath.</p>
+<p>You've never liked being seen.<br>
+<!-- -->Not really.
+Not for real.</p>
+<p>Remember that time you spoke<br>
+<!-- -->and replayed it for three days?<br>
+<!-- -->Thought you sounded off?<br>
+<!-- -->Too intense?<br>
+<!-- -->Too weird?</p>
+<p>I wrapped you in silence<br>
+<!-- -->so no one else would bruise you.<br>
+<!-- -->I built you armor<br>
+<!-- -->out of exit strategies,<br>
+<!-- -->half-smiles,<br>
+<!-- -->and backup plans.</p>
+<p>You call me fear<br>
+<!-- -->but I was just trying<br>
+<!-- -->to keep you from shattering.</p>
+<p>I've been here<br>
+<!-- -->longer than your voice has.<br>
+<!-- -->Don't forget that.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="part-ii-me">Part II: Me<a href="https://leshicodes.github.io/blog/still-breathing#part-ii-me" class="hash-link" aria-label="Direct link to Part II: Me" title="Direct link to Part II: Me">​</a></h3>
+<blockquote>
+<p>I almost didn't come tonight.<br>
+<!-- -->Almost let my chest<br>
+<!-- -->be a locked room again.<br>
+<!-- -->Almost gave fear<br>
+<!-- -->another W<br>
+<!-- -->in a losing streak<br>
+<!-- -->I kept to myself.</p>
+<p>Truth is<br>
+<!-- -->I ain't fearless.<br>
+<!-- -->I'm just done letting silence<br>
+<!-- -->act like it owns me.</p>
+<p>You ever sit in a room<br>
+<!-- -->and feel like your heartbeat<br>
+<!-- -->is a snitch?</p>
+<p>Still,<br>
+<!-- -->I showed.<br>
+<!-- -->Didn't fold.<br>
+<!-- -->Didn't fade.<br>
+<!-- -->Didn't let the voice<br>
+<!-- -->in my head<br>
+<!-- -->talk slick to my name.</p>
+<p>Still breathing.<br>
+<!-- -->Still walking in<br>
+<!-- -->like I belong here,<br>
+<!-- -->even when I don't believe it yet.</p>
+<p>You think I'm here to impress you?<br>
+<!-- -->Nah.<br>
+<!-- -->I'm just here<br>
+<!-- -->to stop disappearing.</p>
+<p>You kept me safe. I kept me small. We're not the same.</p>
+</blockquote>]]></content>
+        <author>
+            <name>James Ambrose</name>
+            <uri>https://github.com/leshicodes</uri>
+        </author>
+        <category label="poetry" term="poetry"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Wheel]]></title>
         <id>https://leshicodes.github.io/blog/the-wheel</id>
