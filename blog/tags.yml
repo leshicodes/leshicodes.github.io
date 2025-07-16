@@ -31,7 +31,7 @@ poetry:
 tech:
   label: tech
   permalink: /tech
-  description: tech description (TODO)
+  description: "This tag is used for technical posts, which may include programming, software development, and other technology-related topics. It serves as a space for me to share my knowledge, insights, and experiences in the tech industry."
 
 personal:
   label: personal
