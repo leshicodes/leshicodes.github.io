@@ -91,6 +91,7 @@ const config: Config = {
             {to: '/blog/tags', label: 'Tags'},
             {to: '/blog/tags/tech', label: 'Tech'},
             {to: '/blog/tags/poetry', label: 'Poetry'},
+            {to: '/blog/tags/recipes', label: 'Recipes'},
           ],
         },
         {
