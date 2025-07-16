@@ -1,7 +1,12 @@
 kitchen:
   label: kitchen
   permalink: /kitchen
-  description: kitchen tag description
+  description: A collection of kitchen-related posts, including recipes, cooking tips, and culinary experiments.
+
+recipes:
+  label: recipes
+  permalink: /recipes
+  description: A collection of recipes that I have created or adapted
 
 DIY:
   label: DIY
