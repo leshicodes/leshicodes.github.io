@@ -893,7 +893,6 @@ If you can plug in a toaster and operate a screwdriver, you can absolutely handl
             <uri>https://github.com/leshicodes</uri>
         </author>
         <category label="tech" term="tech"/>
-        <category label="repair" term="repair"/>
         <category label="kitchen" term="kitchen"/>
         <category label="DIY" term="DIY"/>
     </entry>
@@ -1083,8 +1082,6 @@ If you can plug in a toaster and operate a screwdriver, you can absolutely handl
             <uri>https://github.com/leshicodes</uri>
         </author>
         <category label="poetry" term="poetry"/>
-        <category label="pets" term="pets"/>
-        <category label="humor" term="humor"/>
         <category label="personal" term="personal"/>
     </entry>
 </feed>
