@@ -1,0 +1,128 @@
+---
+sidebar_position: 1
+title: iOS Access
+---
+
+import ResponsiveImage from '@site/src/components/ResponsiveImage';
+import ServerEndpointURL from './static/ios-serverendpointurl.png';
+import BackupSelect1 from './static/ios-backupselect1.png';
+import BackupSelect2 from './static/ios-backupselect2.png';
+import PreBackup from './static/ios-prebackup.png';
+import PostBackup from './static/ios-postbackup.png';
+import SelectAlbum1 from './static/ios-selectAlbum1.png';
+import SelectAlbum2 from './static/ios-selectAlbum.png';
+
+
+
+# Accessing Immich on iOS
+
+This guide shows you how to set up and use the Immich app on your iPhone or iPad.
+
+## Installation
+
+1. Download the [Immich app from the App Store](https://apps.apple.com/us/app/immich/id1613945652)
+
+{/* ![iOS App Store](/img/immich/ios/app-store.png) */}
+
+## Part 1: Setting Up the App
+
+1. Open the Immich app
+2. When prompted, enter your Immich server URL: `http://photos.jjambrose.info:2283/`
+
+<ResponsiveImage 
+  src={ServerEndpointURL}
+  alt="ServerEndpointURL" 
+  width="450px" 
+/>
+
+3. Enter your username and password
+4. Tap "Sign In"
+:::tip
+If this is your first time accessing Immich, you may be prompted to change your password. Follow the instructions on the login page then continue with the steps below.
+:::
+
+## Part 2: Uploading Photos to Immich
+
+:::important
+You should create an iOS album first, with all desired photos / videos then upload photos to it.
+:::
+1. Create your iOS album first, with all desired photos / videos.
+2. Open the Immich app
+3. from the `Photos` pane, click the icon that looks like a Cloud with an up arrow (top right corner)
+4. You should see `Backup Albums` this is where you can select the album you created in iOS.
+:::note
+`Sync albums` is optional, I would reccomend using it but it is not required.
+:::
+5. Select your album. once selected, just hit back to go to the backup screen.
+
+<ResponsiveImage 
+  src={BackupSelect1}
+  alt="BackupSelect1" 
+  width="450px" 
+/>
+
+<ResponsiveImage 
+  src={BackupSelect2}
+  alt="BackupSelect2" 
+  width="450px" 
+/>
+6. Click the `Start Backup` button at the bottom of the screen and wait for the backup to complete. This may take some time depending on the number of photos and videos you have.
+
+<ResponsiveImage 
+  src={PreBackup}
+  alt="PreBackup" 
+  width="450px" 
+/>
+<ResponsiveImage 
+  src={PostBackup}
+  alt="PostBackup" 
+  width="450px" 
+/>
+
+## Part 3: Uploading Photos to Shared Album
+
+To upload photos to a shared album:
+
+
+1. From the bottom, click `Albums` 
+2. Navigate to the album you want to upload to (I'll be using the "Seattle 2025 🐟" album as an example)
+3. "Add Photos +"
+
+<ResponsiveImage 
+  src={SelectAlbum1}
+  alt="SelectAlbum1" 
+  width="450px" 
+/>
+<ResponsiveImage 
+  src={SelectAlbum2}
+  alt="SelectAlbum2" 
+  width="450px" 
+/>
+4. Select the photos you want to upload
+
+{/* ## Enabling Auto-Backup
+
+To automatically back up new photos:
+
+1. Go to the Settings tab in the app
+2. Tap "Backup Settings"
+3. Enable "Auto Backup"
+4. Choose whether to back up on Wi-Fi only or on cellular data too
+5. Grant necessary permissions when prompted
+
+
+## Browsing Your Library
+
+Navigate through your photos:
+
+1. Use the bottom navigation bar to access different sections
+2. Tap on a photo to view it full-screen
+3. Swipe between photos in full-screen view
+
+## Offline Access
+
+To save photos for offline viewing:
+
+1. Find a photo or album you want to access offline
+2. Tap the download icon
+3. The content will be saved to your device for offline viewing */}

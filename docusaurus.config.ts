@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -88,9 +88,10 @@ const config: Config = {
           position: 'left',
           to: '/blog',
           items: [
-            {to: '/blog/tags', label: 'Tags'},
-            {to: '/blog/tags/tech', label: 'Tech'},
-            {to: '/blog/tags/poetry', label: 'Poetry'},
+            { to: '/blog/tags', label: 'Tags' },
+            { to: '/blog/tags/tech', label: 'Tech' },
+            { to: '/blog/tags/poetry', label: 'Poetry' },
+            { to: '/blog/tags/recipes', label: 'Recipes' },
           ],
         },
         {
@@ -147,6 +148,11 @@ const config: Config = {
     //   ],
     //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     // },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false, // set to true if you want to force dark mode with no toggle
+      respectPrefersColorScheme: true, // set to true if you want to respect user's OS preference
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
