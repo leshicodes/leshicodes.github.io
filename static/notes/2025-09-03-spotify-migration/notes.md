@@ -1,0 +1,25 @@
+- Music Player(s) - Chose [Navidrome](https://www.navidrome.org/docs/installation/docker/) via docker container
+    - I then expose it to the internet via [CloudFlare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
+    - Navidrome is simply assesable via Browser which is nice but I wanted seemless and turnkey mobile access
+        - iOS: [Play:Sub](https://apps.apple.com/us/app/play-sub-music-streamer/id955329386)
+        - Andriod: [Symfonium](https://symfonium.app/)
+    - I also am a bit shallow when it comes to UI so for desktop playback I use [Feishin](https://github.com/jeffvli/feishin)
+        - This is totally optional as Navidrome has a web player that works fine, but I like the native app experience along with features like synced lyrics (more on that later)
+    - ALL playback in Navidrome is automatically scrobbled to my [Last.fm](https://www.last.fm/user/dudelaaaa) account for use in later applications (Music discovery engine)
+- Music Aggregation - I use [Lidarr](https://github.com/Lidarr/Lidarr)
+    - Lidarr is a music collection manager. It can monitor multiple RSS feeds for new albums and will grab, sort, and rename them. It can also be configured to automatically upgrade the quality of files already downloaded.
+    - NOT Exposed to the internet (why would you?) 
+    - downloads are done via usenet orchestrated by [NZBGet](https://hub.docker.com/r/linuxserver/nzbget)
+        - also NOT exposed to the internet (why would you?)
+    - Setup can be calibrated with [Davo's Community Lidarr Guide](https://wiki.servarr.com/lidarr/community-guide)
+    - Since everything is containerized, the libraries are all "linked" via docker volumes and thus are easily accessible by Navidrome and Lidarr, and NZBget (and anything else)
+- Music Lyrics - I use [lrcget-kasm](https://github.com/ShadowsDieThrice/lrcget-kasm)
+    - So lrcget is a simple utility for mass-downloading LRC synced lyrics for your offline music library.
+    - the issue is that the utility is NOT a command line tool, it's strictly a GUI tool. So I use [Kasm](https://www.kasmweb.com/) to containerize the GUI and then access it via browser
+    - This work just fine, but has a naughty usage of CPU when running. So I only run it when I need to update lyrics / fetch lyrics for new music
+    - this is the only part of the process which is VERY manually, no biggie cause it's only a few clicks and then I shut down the container when not in use. 
+    - I have a FR / Discussion post to advocate for an official command line tool, but no response yet!
+        - https://github.com/tranxuanthang/lrcget/discussions/245
+- Music Recommendation Engine - I use [Lidify](https://github.com/TheWicklowWolf/Lidify)
+    - Music discovery tool that provides recommendations based on selected Lidarr artists, using Spotify or LastFM.
+    - Lidify pulls from my previously mentioned Last.fm account to provide recommendations, I also have [ListenBrainz](https://listenbrainz.org/user/leshicodes/) pulling my Last.FM history as well for future usage (currently not used, but AFAIK ListenBrainz will build weekly Discovery playlists similar to Spotify)

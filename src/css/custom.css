@@ -55,3 +55,13 @@
   background: url('/img/github.svg') no-repeat;
   margin: 1px 0 0 -7px;
 }
+
+.mermaid {
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+.mermaid svg {
+  min-width: 100%;
+  height: auto !important;
+}
