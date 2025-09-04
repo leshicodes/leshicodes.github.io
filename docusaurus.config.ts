@@ -151,7 +151,7 @@ const config: Config = {
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false, // set to true if you want to force dark mode with no toggle
-      respectPrefersColorScheme: true, // set to true if you want to respect user's OS preference
+      respectPrefersColorScheme: false, // set to true if you want to respect user's OS preference
     },
     prism: {
       theme: prismThemes.github,
