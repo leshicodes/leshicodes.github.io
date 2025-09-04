@@ -37,8 +37,8 @@ flowchart TD
     classDef user fill:#FF6347,stroke:#333,stroke-width:2px,color:white,border-radius:50px
     
     subgraph "Music Acquisition"
-        Lidarr["🎵 Lidarr<br/>Music Library Manager"] --> NZBGet["📥 NZBGet<br/>Download Client"]
-        NZBGet --> |Downloads| MusicFiles[("💿 Music Files<br/>(FLAC/MP3)")]
+        Lidarr["🎵 Lidarr<br/>Music Library Manager"] --> sabnzbd["📥 sabnzbd<br/>Download Client"]
+        sabnzbd --> |Downloads| MusicFiles[("💿 Music Files<br/>(FLAC/MP3)")]
     end
     
     subgraph "Music Server"
@@ -67,7 +67,7 @@ flowchart TD
     User -.->|Configure| Lidarr
     
     %% Apply classes
-    class Lidarr,NZBGet,MusicFiles acquisition
+    class Lidarr,sabnzbd,MusicFiles acquisition
     class Navidrome,lrcget server
     class LastFM,ListenBrainz,Lidify external
     class CloudflareTunnel,WebUI,PlaySub,Symfonium,Feishin access
@@ -132,7 +132,7 @@ If you want to support artists, buy their work. If you don't, don't pretend Spot
 - Free legal downloads offered by artists
 - Music available under Creative Commons licenses
 
-My setup uses [NZBGet](https://hub.docker.com/r/linuxserver/nzbget) integrated with Lidarr for handling downloads of content I've purchased. Both services run in Docker containers and are NOT exposed to the internet for security.
+My setup uses [sabnzbd](https://hub.docker.com/r/linuxserver/sabnzbd) integrated with Lidarr for handling downloads of content I've purchased. Both services run in Docker containers and are NOT exposed to the internet for security.
 
 
 ### Synced Lyrics: lrcget-kasm
