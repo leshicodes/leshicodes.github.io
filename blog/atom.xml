@@ -49,7 +49,7 @@ If you want to support artists, buy their work. If you don't, don't pretend Spot
 <li>Free legal downloads offered by artists</li>
 <li>Music available under Creative Commons licenses</li>
 </ul>
-<p>My setup uses <a href="https://hub.docker.com/r/linuxserver/nzbget" target="_blank" rel="noopener noreferrer">NZBGet</a> integrated with Lidarr for handling downloads of content I've purchased. Both services run in Docker containers and are NOT exposed to the internet for security.</p>
+<p>My setup uses <a href="https://hub.docker.com/r/linuxserver/sabnzbd" target="_blank" rel="noopener noreferrer">sabnzbd</a> integrated with Lidarr for handling downloads of content I've purchased. Both services run in Docker containers and are NOT exposed to the internet for security.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="synced-lyrics-lrcget-kasm">Synced Lyrics: lrcget-kasm<a href="https://leshicodes.github.io/blog/spotify-migration#synced-lyrics-lrcget-kasm" class="hash-link" aria-label="Direct link to Synced Lyrics: lrcget-kasm" title="Direct link to Synced Lyrics: lrcget-kasm">​</a></h3>
 <img src="https://leshicodes.github.io/assets/images/lrcget-9e4a5896f560d23b5e5dfb8028346ce0.png" alt="lrcget" style="max-width:100%;height:auto" class="">
 <p>A feature I missed from Spotify was synced lyrics. <a href="https://github.com/ShadowsDieThrice/lrcget-kasm" target="_blank" rel="noopener noreferrer">lrcget-kasm</a> fills this gap by mass-downloading LRC synced lyrics files for my music library.</p>
