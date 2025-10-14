@@ -1,0 +1,8 @@
+{
+  "label": "Minecraft Docs",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Instructions for accessing the Nutville Minecraft server"
+  }
+}
